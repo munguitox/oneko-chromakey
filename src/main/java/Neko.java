@@ -37,6 +37,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JWindow;
 import javax.swing.WindowConstants;
+import java.awt.Color;
 
 /**
  * Neko the cat.
@@ -134,7 +135,14 @@ public class Neko {
 	}
 
 	private void imageClicked(MouseEvent evt) {
-		setWindowMode(!controller.getWindowMode());
+   	 setWindowMode(!controller.getWindowMode());
+    	if (controller.getWindowMode()) {
+ // Change the background color to green when the cat is clicked
+        catbox.getContentPane().setBackground(Color.GREEN);
+   	 } else {
+ // Restore the original background color if needed
+        catbox.getContentPane().setBackground(new Color(200, 200, 200, 255));
+    	}
 	}
 
 	/**
