@@ -17,7 +17,7 @@ The Java code for v.2.0 (c) 2019 Gerald Reno
 links
 =====
 
-[Download](https://glreno.github.io/oneko)
+[Download](https://github.com/munguitox/oneko-chromakey/releases/tag/1)
 [Project wiki](https://github.com/glreno/oneko/wiki)
 
 The only thing that I've changed, is that when the cat is clicked, the window background is green.
