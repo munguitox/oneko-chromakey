@@ -20,3 +20,10 @@ links
 [Download](https://glreno.github.io/oneko)
 [Project wiki](https://github.com/glreno/oneko/wiki)
 
+THE GOAL:
+
+THE WINDOW CREATED FROM CLICKING ON THE CAT SHOULD HAVE A GREEN BACKGROUND.
+
+I'm not there yet. Not sure why changing the sRGB values on InvisibleWindow or catbox don't alter the window created from clicking on said cat.
+
+
