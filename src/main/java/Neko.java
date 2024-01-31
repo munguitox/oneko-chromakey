@@ -75,7 +75,7 @@ public class Neko {
 		initComponents();
 		invisibleWindow.setLocation(100,100);
 		controller=new NekoController(settings,invisibleWindow,catbox,freeLabel,boxLabel);
-		setWindowMode(false);
+		setWindowMode(True);
 	}
 
 	/** This method is called from within the constructor to
@@ -85,7 +85,7 @@ public class Neko {
 		String title=settings.getTitle();
 		if ( title==null ) title="Neko";
 		catbox=new JFrame(title);
-		catbox.setBackground(new Color(200,200,200,255));
+		catbox.setBackground(new Color(0,200,0,255));
 		catbox.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		invisibleWindow=new JWindow();
 		invisibleWindow.getRootPane().putClientProperty("Window.shadow", false);
